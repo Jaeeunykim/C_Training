@@ -12,10 +12,10 @@ char, int, float, double
 
 ### 1.4 변수 선언 
 
-int lowe, upper, step;
+int lowe, upper, step
 
 ### 1.5 산술
-+,-,*,/,%
++, -, *, /, %
 
 ### 1.6 관계논리연산자 
 

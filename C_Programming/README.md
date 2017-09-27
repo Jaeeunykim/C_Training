@@ -24,7 +24,7 @@ Back to the Basic! C언어를 배우기위한 가장 좋은 책으로 C programm
 
 변수이름, 데이터 타입과 사이즈, 상수, 선언부, 타입변환, 비트연산, 조건문등의 표현들에 대해서 알아본다
 
-### 2장 제어흐름
+### [2장 제어흐름](./ch2/README.md)
 
 구문과 블록, if-else문, else-if문, switch, loop, break-continue, Goto등의 대해 알아 본다
 

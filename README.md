@@ -5,6 +5,6 @@
 
 
 ## [C 프로그래밍](./C_Programming/README.md)
-## [Vi](./Vi/READEME.md)
+## [Vi](./Vi/README.md)
 ## [Github](./Github/README.md)
 

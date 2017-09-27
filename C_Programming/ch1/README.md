@@ -7,22 +7,21 @@ char, int, float, double
 
 
 ### 1.3 상수
-변하지 않는 값 
 #define '000'
 
 ### 1.4 변수 선언 
 
-int lowe, upper, step
+"'int lowe, upper, step"'
 
 ### 1.5 산술
-+, -, *, /, %
+"'+, -, *, /, %"'
 
 ### 1.6 관계논리연산자 
 
->, >=, <, <=, ==, !=
+"'>, >=, <, <=, ==, !="'
 
 ### 1.7 타입변환 
-atoi함수 (strint to integer)
+"'atoi함수 (문자열을 정수로)"'
 
 ### 1.8 증감연산자 
 

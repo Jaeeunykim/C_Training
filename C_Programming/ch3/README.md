@@ -152,7 +152,8 @@ void f(double x)
 </code></pre>
 
 
-## 3.9 초기화 
+## 3.9 초기화
+
 <pre><code>
 int binsearch(int x, int v[], int n)
 {
@@ -212,7 +213,7 @@ C 전처리기(프리프로세스)는 컴파일 하기 전 처리단계이다.
 긴숫자나, 문자를 명확하고 간결하게 할 수 있다.
 
 우리가 3.14159라는 숫자를 PI라고 하는 것과 같다
-<pre><code> #define [대체명] [대체될내용]
+<pre><code>#define [대체명] [대체될내용]
 #define PI 3.14159
 </code></pre>
 

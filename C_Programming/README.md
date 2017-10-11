@@ -28,7 +28,7 @@ Back to the Basic! C언어를 배우기위한 가장 좋은 책으로 C programm
 
 구문과 블록, if-else문, else-if문, switch, loop, break-continue, Goto등의 대해 알아 본다
 
-### 3장 함수와 프로그램구조
+### [3장 함수와 프로그램구조](./ch3/README.md)
 
 기본함수, 정수가 아닌 다른 타입을 반환하는 함수, 외부변수, 정의한 변수의 영향범위, 헤더파일, 정적변수, 레지스터변수, 블록구조, 초기화, 재귀, C 전처리기
 

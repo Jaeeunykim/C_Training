@@ -135,14 +135,12 @@ if(n>0)
 		...
 	}
 }
-
 </code></pre>
 
 아래의 코드도 동일한 형태이다.
 함수 f안에 있는 x,y는 함수외부의 변수와는 별개이다. 
 
 <pre><code>
-
 int x;
 int y;
 
@@ -156,7 +154,6 @@ void f(double x)
 
 ## 3.9 초기화 
 <pre><code>
-
 int binsearch(int x, int v[], int n)
 {
 	int low = 0;
@@ -165,8 +162,8 @@ int binsearch(int x, int v[], int n)
 	...
 }
 
-위의 표현은 원래아래의 부분을 간결하게 하였다
-코드를 보기 쉽고 이해하기 쉽게 표현하는 것이 좋다.
+/*위의 표현은 원래아래의 부분을 간결하게 하였다
+코드를 보기 쉽고 이해하기 쉽게 표현하는 것이 좋다.*/
 
 int low, high, mid;
 
@@ -178,10 +175,11 @@ high = n-1;
 c 함수는 직,간접적으로 자기자신 호출이 가능하다.
 
 재귀함수 사용조건은  반복을 끝내는 조건이 있어야 한다.
-만약 끝나는 조건이 없다면 끝없이 함수를 계속 호출 하기때문에, overflow가 일어날수있다.
+만약 끝나는 조건이 없다면 끝없이 함수를 계속 호출 하기때문에, 
+Overflow가 일어날수있다.
 
 <pre><code>
-printd 함수 : n를 10진수로 출력하는 함수 
+/*printd 함수 : n를 10진수로 출력하는 함수 */
 
 void printd(int n)
 {
@@ -196,7 +194,6 @@ void printd(int n)
 	}
 	puchar(n % 10 + '0');
 }
-
 </code></pre>
 
 
@@ -207,9 +204,7 @@ C 전처리기(프리프로세스)는 컴파일 하기 전 처리단계이다.
 
 ### 3.11.1 파일삽입
 특정 파일을 해당 프로그램에서 사용하고자 할때 사용한다.
-<pre><code>
-#include "filename"
-#include <filename>
+<pre><code>#include "filename" #include <filename>
 </code></pre>
 
 ### 3.11.2 메크로 치환 
@@ -218,8 +213,7 @@ C 전처리기(프리프로세스)는 컴파일 하기 전 처리단계이다.
 
 형태 #define 대체될이름 본래의내용 
 우리가 3.14159라는 숫자를 PI라고 하는 것과 같다
-<pre><code>
-#define PI 3.14159
+<pre><code>#define PI 3.14159
 </code></pre>
 
 아래의 역할을 수행하기도 한다.
@@ -232,8 +226,7 @@ x = max(p+q, r+s);
 </code></pre>
 
 그리고 #undef명령에 의해 선언했던 내용이 해제될 수 있다
-<pre><code>
-#undef identifier
+<pre><code>#undef identifier
 </code></pre>
 
 

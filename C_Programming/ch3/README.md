@@ -185,7 +185,7 @@ void printd(int n)
 {
 	if(n < 0)
 	{
-		puchar('-);
+		puchar('-');
 		n = -n;
 	}
 	if(n/10)
